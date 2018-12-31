@@ -10,7 +10,11 @@ const Input = ({ label, value, onChangeText, placeholder, secureTextEntry }) => 
                 secureTextEntry={secureTextEntry}
                 placeholder={placeholder}
                 autoCorrect={false}
+<<<<<<< HEAD
                 autoCapitalize={"none"}
+=======
+                autoCapitalize={'none'}
+>>>>>>> initial commit
                 style={inputStyle}
                 value={value}
                 onChangeText={onChangeText}
@@ -41,4 +45,8 @@ const styles = {
     }
 };
 
+<<<<<<< HEAD
 export { Input };
+=======
+export { Input };
+>>>>>>> initial commit
